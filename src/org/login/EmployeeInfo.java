@@ -21,7 +21,13 @@ public class EmployeeInfo {
 		
 		int lastIndexOf = s.lastIndexOf('o');
 		System.out.println(lastIndexOf);
-				
+		
+		boolean empty = s.isEmpty();
+		System.out.println(empty);
+		
+		int indexOf2 = s.indexOf('m');
+	    System.out.println(indexOf2);
+	    
 	}
 	
 	
